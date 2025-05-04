@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Home</title>
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="preloader" id="loading">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- FScreen-->
+      <section class="section page-header-3">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav
+            class="rd-navbar rd-navbar-classic"
+            data-layout="rd-navbar-fixed"
+            data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed"
+            data-md-device-layout="rd-navbar-fixed"
+            data-lg-layout="rd-navbar-fixed"
+            data-lg-device-layout="rd-navbar-fixed"
+            data-xl-layout="rd-navbar-static"
+            data-xl-device-layout="rd-navbar-static"
+            data-xxl-layout="rd-navbar-static"
+            data-xxl-device-layout="rd-navbar-static"
+            data-lg-stick-up-offset="3px"
+            data-xl-stick-up-offset="3px"
+            data-xxl-stick-up-offset="3px"
+            data-lg-stick-up="true"
+            data-xl-stick-up="true"
+            data-xxl-stick-up="true"
+          >
+            <div class="rd-navbar-main">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button
+                  class="rd-navbar-toggle"
+                  data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                >
+                  <span></span>
+                </button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand">
+                  <a class="brand" href="index.html"
+                    ><img
+                      class="brand-logo-dark"
+                      src="images/logo-default-192x42.png"
+                      alt=""
+                      width="192"
+                      height="42"
+                      srcset="images/logo-default-382x84.png 2x" /><img
+                      class="brand-logo-light"
+                      src="images/logo-inverse-192x42.png"
+                      alt=""
+                      width="192"
+                      height="42"
+                      srcset="images/logo-inverse-384x85.png 2x"
+                  /></a>
+                </div>
+              </div>
+              <div class="rd-navbar-nav-wrap">
+                <ul class="rd-navbar-nav">
+                  <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">首页</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="#server">服务</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="#case">案例</a>
+                  </li>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="#contact">联系</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="bog-g-bandit context-dark">
+          <div class="bog-g-bandit-img-absolute">
+            <img
+              src="images/bg-header-1762x1762.png"
+              alt=""
+              width="1762"
+              height="1762"
+            />
+          </div>
+          <div class="container">
+            <div class="row row-30 align-items-center justify-content-center">
+              <div class="col-md-10 col-lg-5 col-xl-6">
+                <h1 class="heading-decoration-2 wow clipInLeft">
+                  <span class="font-weight-extra-black">靠谱的</span><br /><span
+                    class="text-secondary"
+                    >软件开发服务商</span
+                  >
+                </h1>
+                <p class="big wow clipInLeft" data-wow-delay=".3s">
+                  迈科数创（Maxicode）工作室成立以来，始终致力于为全球用户提供最好的软件开发服务。我们的软件解决方案坚持提供高品质的客户服务与技术支持保障
+                </p>
+                <div class="group wow clipInLeft">
+                  <a
+                    class="button button-secondary button-winona wow clipInLeft"
+                    href="#contact"
+                    data-wow-duration=".5s"
+                    data-wow-delay=".8s"
+                    >联系我们</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-10 col-lg-7 col-xl-6">
+                <div class="bog-g-bandit-img">
+                  <img
+                    src="images/i-mac-1102x620.png"
+                    alt=""
+                    width="1102"
+                    height="620"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Meet Alice-->
+      <section id="server" class="section section-md text-center bg-gray-100">
+        <div class="container">
+          <div class="badge wow fadeIn">Our Services</div>
+          <h3 class="wow fadeIn">我们提供</h3>
+          <!-- Owl Carousel-->
+          <div
+            class="owl-carousel owl-carousel_type-3"
+            data-items="1"
+            data-sm-items="2"
+            data-lg-items="3"
+            data-xl-items="4"
+            data-dots="true"
+            data-nav="false"
+            data-stage-padding="0"
+            data-loop="true"
+            data-margin="30"
+            data-mouse-drag="false"
+          >
+            <!-- Box Modern-->
+            <article
+              class="box-modern box-modern-sm box-modern_alternate wow clipInDown"
+              data-anime="circles-1"
+            >
+              <div class="box-modern-media">
+                <div class="box-modern-icon linearicons-chart-growth"></div>
+                <div class="box-modern-circle box-modern-circle-1"></div>
+                <div class="box-modern-circle box-modern-circle-2"></div>
+              </div>
+              <p class="box-modern-title">软件解决方案</p>
+              <div class="box-modern-text">
+                <p>成熟的软件解决方案可助力您的业务功能与商业计划高效运行</p>
+              </div>
+            </article>
+            <!-- Box Modern-->
+            <article
+              class="box-modern box-modern-sm wow clipInDown"
+              data-anime="circles-2"
+              data-wow-delay=".1s"
+            >
+              <div class="box-modern-media">
+                <div class="box-modern-icon linearicons-laptop-phone"></div>
+                <div class="box-modern-circle box-modern-circle-1"></div>
+                <div class="box-modern-circle box-modern-circle-2"></div>
+              </div>
+              <p class="box-modern-title">应用开发服务</p>
+              <div class="box-modern-text">
+                <p>
+                  我们的专业团队可根据您的业务需求，高效定制开发专属APP/小程序/页面等应用程序
+                </p>
+              </div>
+            </article>
+            <!-- Box Modern-->
+            <article
+              class="box-modern box-modern-sm box-modern_alternate-1 wow clipInDown"
+              data-anime="circles-1"
+              data-wow-delay=".2s"
+            >
+              <div class="box-modern-media">
+                <div class="box-modern-icon linearicons-chart-settings"></div>
+                <div class="box-modern-circle box-modern-circle-1"></div>
+                <div class="box-modern-circle box-modern-circle-2"></div>
+              </div>
+              <p class="box-modern-title">大模型智能服务</p>
+              <div class="box-modern-text">
+                <p>
+                  我们可以开发基于大模型的智能化应用，大模型本地化部署，助力用户建立智能化的商业体系
+                </p>
+              </div>
+            </article>
+            <!-- Box Modern-->
+            <article
+              class="box-modern box-modern-sm wow clipInDown"
+              data-anime="circles-1"
+              data-wow-delay=".3s"
+            >
+              <div class="box-modern-media">
+                <div class="box-modern-icon linearicons-star"></div>
+                <div class="box-modern-circle box-modern-circle-1"></div>
+                <div class="box-modern-circle box-modern-circle-2"></div>
+              </div>
+              <p class="box-modern-title">技术咨询</p>
+              <div class="box-modern-text">
+                <p>
+                  我们具备丰富的行业经验，可以帮助用户设计实施方案、评估方案可行性、报价是否合理等
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- About our App-->
+      <section class="section section-box-custom-3-outer" id="about-us">
+        <!-- Simple and Clear steps-->
+        <div
+          class="parallax-container section-lg section-box-custom-3 section-bottom-0 text-center"
+          data-parallax-img="images/bg-image-1.jpg"
+        >
+          <div class="parallax-content">
+            <div class="container context-dark">
+              <div class="badge wow fadeIn">about us</div>
+              <h3 class="typed-text-heading wow fadeIn" data-wow-delay=".1s">
+                <span>提供高质量的</span
+                ><span
+                  class="typed-text text-secondary"
+                  data-strings='["软件解决方案", "应用开发服务", "大模型智能服务", "技术咨询"]'
+                  data-type-speed="120"
+                  >应用开发服务</span
+                >
+              </h3>
+              <p class="wow fadeIn" data-wow-delay=".2s">
+                <span style="max-width: 800px"
+                  >迈科数创（Maxicode）​​专注为各行业用户提供​​商业价值驱动型​​软件开发符合和软件解决方案。凭借行业领先的技术实力与专家级实施团队，我们持续为客户交付最优质的产品，助力用户建立无可比拟的数字化竞争力​​。</span
+                >
+              </p>
+            </div>
+            <div class="box-custom-3-container container wow slideInUpSmall">
+              <div class="box-custom-3">
+                <div class="layout-bordered-1">
+                  <div class="layout-bordered-1-item">
+                    <!-- Counter Classic-->
+                    <article class="counter-classic wow clipInLeft">
+                      <div class="counter-classic-main">
+                        <div class="counter">23</div>
+                        <span class="small text-primary">+</span>
+                      </div>
+                      <h4 class="counter-classic-title">
+                        高质量 <br />
+                        团队人数
+                      </h4>
+                    </article>
+                  </div>
+                  <div class="layout-bordered-1-item">
+                    <!-- Counter Classic-->
+                    <article
+                      class="counter-classic wow clipInLeft"
+                      data-wow-delay=".1s"
+                    >
+                      <div class="counter-classic-main">
+                        <div class="counter">152</div>
+                        <span class="small text-primary">+</span>
+                      </div>
+                      <h4 class="counter-classic-title">
+                        创新 <br />
+                        软件开发数量
+                      </h4>
+                    </article>
+                  </div>
+                  <div class="layout-bordered-1-item">
+                    <!-- Counter Classic-->
+                    <article
+                      class="counter-classic wow clipInLeft"
+                      data-wow-delay=".2s"
+                    >
+                      <div class="counter-classic-main">
+                        <div class="counter">200</div>
+                        <span class="small text-primary">+</span>
+                      </div>
+                      <h4 class="counter-classic-title">
+                        客户 <br />
+                        好评
+                      </h4>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Features-->
+      <section id="case" class="section section-md">
+        <div class="container">
+          <div class="row row-20 justify-content-xl-between align-items-center">
+            <div class="col-md-8 col-lg-7 col-xl-6 wow fadeInLeftSmall">
+              <div class="box-g-1">
+                <div class="unit unit-spacing-1 align-items-center">
+                  <div class="unit-left">
+                    <div class="icon icon-style-1 mdi mdi-briefcase-check"></div>
+                  </div>
+                  <div class="unit-body">
+                    <h3>APP商城</h3>
+                  </div>
+                </div>
+                <div class="block-4 offset-top-4">
+                  <p class="big">
+                    APP商城通常包含首页、商品列表、详情页、购物车、结算页、订单页、个人中心等模块，我们还加入了入营销活动页面和数据统计模块，整个项目周期3个月左右，报价5万元
+                  </p>
+                  <!-- Quote Light-->
+                  <blockquote class="quote-light">
+                    <div class="quote-light-mark linearicons-quote-open"></div>
+                    <div class="quote-light-text">
+                      <p>
+                        从线下到线上的O2O系统打通仅用8周，APP日均UV突破5万。特别赞赏需求变更响应机制，三次重大功能调整都控制在72小时内完成
+                      </p>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-5 wow fadeInRightSmall">
+              <img
+                src="images/shangcheng.png"
+                alt=""
+                width="540"
+                height="360"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+            class="row row-20 justify-content-xl-between align-items-center flex-md-row-reverse"
+          >
+            <div class="col-md-8 col-lg-7 col-xl-6 wow fadeInRightSmall">
+              <div class="box-g-2">
+                <div class="unit unit-spacing-1 align-items-center">
+                  <div class="unit-left">
+                    <div
+                      class="icon icon-style-1 mdi mdi-briefcase-check"
+                    ></div>
+                  </div>
+                  <div class="unit-body">
+                    <h3>点餐微信小程序</h3>
+                  </div>
+                </div>
+                <div class="block-4 offset-top-4">
+                  <p class="big">
+                    点餐类小程序通常包含​​首页模块、商品展示、购物车管理、多支付渠道​​、订单全流程、个人中心等模块，我们还设计了管理后台，整个项目周期1.5个月左右，报价2万元
+                  </p>
+                  <!-- Quote Light-->
+                  <blockquote class="quote-light">
+                    <div class="quote-light-mark linearicons-quote-open"></div>
+                    <div class="quote-light-text">
+                      <p>
+                        后台数据看板拯救了我的餐馆！以前靠猜哪些菜好卖，现在直接看热销榜单，滞销菜品立马下架，食材浪费减少一半
+                      </p>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6 wow fadeInLeftSmall">
+              <img
+                src="images/diancan.png"
+                alt=""
+                width="540"
+                height="360"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-20 justify-content-xl-between align-items-center">
+            <div class="col-md-8 col-lg-7 col-xl-6 wow fadeInLeftSmall">
+              <div class="box-g-1">
+                <div class="unit unit-spacing-1 align-items-center">
+                  <div class="unit-left">
+                    <div class="icon icon-style-1 mdi mdi-briefcase-check"></div>
+                  </div>
+                  <div class="unit-body">
+                    <h3>数据可视化</h3>
+                  </div>
+                </div>
+                <div class="block-4 offset-top-4">
+                  <p class="big">
+                    数据可视化主要旨在借助于图形化手段，清晰有效地传达与沟通信息，通常包含实时数据监控​​、智能预警机制、多终端适配，开发周期一个月左右，报价1万元
+                  </p>
+                  <!-- Quote Light-->
+                  <blockquote class="quote-light">
+                    <div class="quote-light-mark linearicons-quote-open"></div>
+                    <div class="quote-light-text">
+                      <p>
+                        接入实时大屏后，区域经理决策响应速度提升3倍。双十一期间，通过热力图发现华东区某SKU异常缺货，及时调拨避免200万潜在损失
+                      </p>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-5 wow fadeInRightSmall">
+              <img
+                src="images/keshihua.png"
+                alt=""
+                width="668"
+                height="374"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+            class="row row-20 justify-content-xl-between align-items-center flex-md-row-reverse"
+          >
+            <div class="col-md-8 col-lg-7 col-xl-6 wow fadeInRightSmall">
+              <div class="box-g-2">
+                <div class="unit unit-spacing-1 align-items-center">
+                  <div class="unit-left">
+                    <div
+                      class="icon icon-style-1 mdi mdi-briefcase-check"
+                    ></div>
+                  </div>
+                  <div class="unit-body">
+                    <h3>数字孪生</h3>
+                  </div>
+                </div>
+                <div class="block-4 offset-top-4">
+                  <p class="big">
+                    数字孪生是在虚拟空间中完成现实映射，包含三维可视化、动态数据映射、智能监控与预警、设备预测性维护等，开发周期两个月左右，报价3万
+                  </p>
+                  <!-- Quote Light-->
+                  <blockquote class="quote-light">
+                    <div class="quote-light-mark linearicons-quote-open"></div>
+                    <div class="quote-light-text">
+                      <p>
+                        通过数字孪生系统，新产线验证周期从3个月压缩至2周，设备故障率下降45%。最惊艳的是能耗模拟功能，帮我们找到空压机群控策略漏洞，年省电费超200万元
+                      </p>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6 wow fadeInLeftSmall">
+              <img
+                src="images/luansheng.png"
+                alt=""
+                width="540"
+                height="360"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-20 justify-content-xl-between align-items-center">
+            <div class="col-md-8 col-lg-7 col-xl-6 wow fadeInLeftSmall">
+              <div class="box-g-1">
+                <div class="unit unit-spacing-1 align-items-center">
+                  <div class="unit-left">
+                    <div class="icon icon-style-1 mdi mdi-briefcase-check"></div>
+                  </div>
+                  <div class="unit-body">
+                    <h3>大模型应用</h3>
+                  </div>
+                </div>
+                <div class="block-4 offset-top-4">
+                  <p class="big">
+                    大模型现在可以应用在各行各业，提高工作效率，通常包含智能问答引擎​​、知识库管理、多模态交互等，开发周期2个月左右，报价2.5万元
+                  </p>
+                  <!-- Quote Light-->
+                  <blockquote class="quote-light">
+                    <div class="quote-light-mark linearicons-quote-open"></div>
+                    <div class="quote-light-text">
+                      <p>
+                        智能客服系统日均处理10万+咨询，情感分析准确识别85%的差评原因。会员画像功能使促销转化率提升26%，库存周转周期缩短15天
+                      </p>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-5 wow fadeInRightSmall">
+              <img
+                src="images/damoxing.png"
+                alt=""
+                width="668"
+                height="374"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+            class="row row-20 justify-content-xl-between align-items-center flex-md-row-reverse"
+          >
+            <div class="col-md-8 col-lg-7 col-xl-6 wow fadeInRightSmall">
+              <div class="box-g-2">
+                <div class="unit unit-spacing-1 align-items-center">
+                  <div class="unit-left">
+                    <div
+                      class="icon icon-style-1 mdi mdi-briefcase-check"
+                    ></div>
+                  </div>
+                  <div class="unit-body">
+                    <h3>静态页面</h3>
+                  </div>
+                </div>
+                <div class="block-4 offset-top-4">
+                  <p class="big">
+                    静态页面通常用来展示信息做企业宣传等，常见的有企业官网、活动宣传页、SEO等，开发周期2周左右，报价200-500一个页面
+                  </p>
+                  <!-- Quote Light-->
+                  <blockquote class="quote-light">
+                    <div class="quote-light-mark linearicons-quote-open"></div>
+                    <div class="quote-light-text">
+                      <p>
+                        将产品手册转为静态页面后，海外客户访问速度提升60%，SEO排名进入行业前三，询盘量增长35%
+                      </p>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6 wow fadeInLeftSmall">
+              <img
+                src="images/gaunwang.png"
+                alt=""
+                width="540"
+                height="360"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Download our App-->
+      <div
+        id="contact"
+        class="parallax-container section-lg text-center bg-primary"
+        data-parallax-img="images/bg-image-1-2.jpg"
+      >
+        <div class="parallax-content">
+          <div class="container context-dark">
+            <div class="badge wow fadeIn">Work with us</div>
+            <h3
+              class="wow fadeIn"
+              data-wow-delay=".1s"
+              style="letter-spacing: -0.01em"
+            >
+              我们已经准备好帮您创造价值
+            </h3>
+            <p class="wow fadeIn" data-wow-delay=".2s">
+              <span style="max-width: 760px; opacity: 0.65"
+                >携手迈科数创（Maxicode），以专业软件开发解决方案驱动您的商业成功！立即咨询，解锁专属应用开发方案</span
+              >
+            </p>
+          </div>
+          <div class="group">
+            <a
+              style="color: #fff"
+              href="tel:#"
+              data-wow-delay=".1s"
+              >电话：131 6171 2662</a
+            >
+            <div>
+              <span style="color: #fff;">微信：</span>
+              <img src="images/erweima.jpg" style="max-width: 80px;" />
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Page Footer-->
+      <footer class="section footer-light">
+        <div class="container">
+          <div class="footer-light-main">
+            <div class="brand-outer">
+              <a class="brand" href="index.html"
+                ><img
+                  class="brand-logo-dark"
+                  src="images/logo-default-192x42.png"
+                  alt=""
+                  width="192"
+                  height="42"
+                  srcset="images/logo-default-382x84.png 2x"
+              /></a>
+            </div>
+            <p class="rights">
+              <span>&copy;&nbsp;</span><span class="copyright-year"></span
+              ><span>.&nbsp;</span><span>All Rights Reserved</span
+              ><span>.&nbsp;</span
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
